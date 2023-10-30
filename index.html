@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Jogo da velha</title>
+</head>
+<body>
+    
+    <div id="content">
+        <label for="game_level">Selecione o modo de jogo</label><br>
+        <select id="game_level" name="game_level">
+            <option value="3">Fácil</option>
+            <option value="6">Médio</option>
+            <option value="9">Impossível</option>
+            <option value="vsFriend">Jogar contra um amigo</option>
+        </select>
+
+        
+        <div id="turn_player">
+            <div id="playerX" class="activate">X</div>
+            <div id="playerO">O</div>
+        </div>
+        <label>Começar o jogo ou selecionar jogador</label>
+
+        <table id="tictac_board">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <div style="text-align: center;">
+            <button type="reset" onclick="location.reload()">Reiniciar Jogo</button>
+        </div>
+    </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>

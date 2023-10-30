@@ -1,0 +1,67 @@
+#content {
+    text-align: center;
+    margin: 100px;
+}
+
+#game_level {
+    font-size: 16px;
+    padding: 4px;
+    margin: 10px 0;
+}
+
+#game_level label {
+    font-size: 20px;
+}
+
+#turn_player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    background-color:#f0f0f0;
+}
+
+#playerX, #playerO {
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#tictac_board {
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+    margin: 5px auto;
+    margin-top: 20px;
+}
+
+#tictac_board td {
+    content: "";
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid black;    
+}
+
+.activate {
+    background-color:  #08c58c;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
