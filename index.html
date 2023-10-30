@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="style.css">
 
     <title>Jogo da velha</title>
@@ -24,7 +24,7 @@
             <div id="playerX" class="activate">X</div>
             <div id="playerO">O</div>
         </div>
-        <label>Começar o jogo ou selecionar jogador</label>
+        <label>Selecionar jogador</label>
 
         <table id="tictac_board">
             <tr>
@@ -45,10 +45,10 @@
         </table>
 
         <div style="text-align: center;">
-            <button type="reset" onclick="location.reload()">Reiniciar Jogo</button>
+            <button id="start-game" type="button">Iniciar Jogo</button>
         </div>
     </div>
-      
-    <script src="script.js"></script>
+    
+    <script type="module" src="./app.js"></script>
 </body>
 </html>

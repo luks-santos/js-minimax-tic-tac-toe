@@ -48,11 +48,7 @@
     border: 2px solid black;    
 }
 
-.activate {
-    background-color:  #08c58c;
-}
-
-button {
+#start-game {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #007bff;
@@ -62,6 +58,25 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+#start-game:hover {
     background-color: #0056b3;
 }
+
+#end-game {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#end-game:hover {
+    background-color: #0056b3;
+}
+
+.activate {
+    background-color:  #08c58c;
+}
+
